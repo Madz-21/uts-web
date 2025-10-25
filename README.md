@@ -28,7 +28,6 @@ Portfolio website modern dengan desain glassmorphism yang responsive dan interak
 - **Google Fonts** - Alan Sans & Roboto fonts
 
 ## 📁 Struktur File
-
 ```
 project/
 │
@@ -40,7 +39,8 @@ project/
 │   │   └── log.js
 │   └── img/
 │       ├── photo1.png
-│       └── photo2.png
+│       ├── photo2.png
+│       └── logo.ico
 ```
 
 ## 🚀 Cara Menggunakan
@@ -55,7 +55,6 @@ project/
 ### Mengubah Warna Tema
 
 Edit variabel CSS di `style.css`:
-
 ```css
 :root {
   --color-primary: #2563eb;
@@ -73,7 +72,6 @@ Ganti file di folder `assets/img/`:
 ### Menambah Project
 
 Tambahkan card baru di section Projects:
-
 ```html
 <div class="project-card">
     <img src="path/to/image.jpg" alt="Project name" />
